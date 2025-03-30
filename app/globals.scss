@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import "variables.scss";
+
+h2 {
+    font-family: $montserrat-bold;
+    color: $blue-title;
+}
+
+h3 {
+    font-family: $montserrat-medium;
+    color: $blue-title;
+}
+
+h4 {
+    font-size: 42px;
+    color: $blue-title;
+    font-family: $montserrat-bold;
+}
+
+.regular {
+    font-family: $montserrat-regular;
+}
