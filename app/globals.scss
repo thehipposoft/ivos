@@ -3,12 +3,10 @@
 
 h2 {
     font-family: $montserrat-bold;
-    color: $blue-title;
 }
 
 h3 {
     font-family: $montserrat-medium;
-    color: $blue-title;
 }
 
 h4 {
@@ -17,6 +15,18 @@ h4 {
     font-family: $montserrat-bold;
 }
 
-.regular {
+p, li, a, .regular {
     font-family: $montserrat-regular;
+}
+
+strong, .medium {
+    font-family: $montserrat-medium;
+}
+
+.bluet {
+    color: $blue-title;
+}
+
+.bold {
+    font-family: $montserrat-bold;
 }

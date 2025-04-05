@@ -5,6 +5,8 @@ import Novedad from "@/components/Novedad";
 import Proyectos from "@/components/Proyectos";
 import Nosotros from "@/components/Nosotros";
 import Footer from "@/components/Footer";
+import Contact from "@/components/Contact";
+import Tableros from "@/components/Tableros";
 
 export default function Home() {
   return (
@@ -14,7 +16,9 @@ export default function Home() {
       <Novedad />
       <Materiales />
       <Proyectos />
+      <Tableros />
       <Nosotros />
+      <Contact />
       <Footer />
     </div>
   );
