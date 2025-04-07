@@ -3,7 +3,7 @@ import React from 'react'
 
 const Nosotros = () => {
   return (
-    <div className='md:h-[540px] flex flex-col'>
+    <div className='md:h-[540px] flex flex-col' id='nosotros'>
         <div className='bg-gradient-to-b from-[#F2F2F3] to-[#C8CBCE] flex items-end md:h-[450px]'>
             <div className='flex flex-col md:flex-row justify-between w-[85vw] 2xl:w-[1300px] mx-auto'>
                 <div className='flex flex-col gap-4 md:pb-12 pt-10 md:pt-0 md:w-[810px]'>
@@ -22,8 +22,8 @@ const Nosotros = () => {
         </div>
         <div className='h-[90px] relative w-screen flex items-center'>
             <Image src={'/assets/images/nosotros/nosotros-banne.png'} alt='' fill className='object-cover' />
-            <div className='flex relative z-10 justify-end w-[85vw] 2xl:w-[1300px] mx-auto'>
-                <div className='flex gap-8 bg-white h-[50px] items-center rounded-tl-[30px] rounded-br-[30px] px-16'>
+            <div className='flex relative z-10 justify-end w-[90vw] 2xl:w-[1300px] mx-auto'>
+                <div className='flex gap-8 bg-white h-[50px] items-center rounded-tl-[30px] rounded-br-[30px] md:px-16 px-6'>
                     <p className='bold uppercase text-sm'>Arq. Ignacio Nieva Toppa</p>
                     <p className='bold uppercase text-sm'>Arq Belén Borigen </p>
                 </div>

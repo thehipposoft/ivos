@@ -132,7 +132,7 @@ const MyCustomForm = ({
                             );
                         case 'tel':
                             return (
-                                <section className='mb-4 md:w-1/2' key={name}>
+                                <section className='mb-4 md:w-[49%]' key={name}>
                                     <label className={'contact-label'}>{label}</label>
                                     <input
                                         type={type}
@@ -147,7 +147,7 @@ const MyCustomForm = ({
                             );
                         default:
                             return (
-                                <section className='mb-4 md:w-1/2' key={name}>
+                                <section className='mb-4 md:w-[49%]' key={name}>
                                     <label className={'contact-label'}>{label}</label>
                                     <input
                                         type={type}

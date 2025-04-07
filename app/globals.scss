@@ -1,6 +1,10 @@
 @import "tailwindcss";
 @import "variables.scss";
 
+html {
+    scroll-behavior: smooth;
+}
+
 h2 {
     font-family: $montserrat-bold;
 }
@@ -15,7 +19,7 @@ h4 {
     font-family: $montserrat-bold;
 }
 
-p, li, a, .regular {
+p, li, a, input, textarea, .regular {
     font-family: $montserrat-regular;
 }
 
