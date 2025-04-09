@@ -10,7 +10,7 @@ const Header = () => {
   const handleToggleMenu = () => setToggleMenu(!toggleMenu);
 
   return (
-    <div className='w-screen absolute  z-10 top-0'>
+    <div className='w-screen absolute z-10 top-0'>
         <div className='md:w-[85vw] w-screen flex justify-between mx-auto items-center relative'>
             <div className='bg-white/20 drop-shadow-xl backdrop-blur-sm p-2 rounded-lg ml-4 md:ml-0'>
               <Image src={'/assets/images/logo.png'} alt='Logo' width={1028} height={338} className='md:w-[162px] w-[180px] md:h-[52px] ' />

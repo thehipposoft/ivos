@@ -5,7 +5,7 @@ import { REV_INTERIOR } from '../constants'
 export default function RevestimientoInterioresPage() {
   return (
     <div className='flex flex-col'>
-        <div className='h-[200px] flex items-center'>
+        <div className='h-[150px] flex items-center'>
             <h4 className='w-[85vw] mx-auto uppercase 2xl:w-[1300px]'>Revestimientos interiores de pvc</h4>
         </div>
         <GalleryComponent banner='/assets/images/materiales/rev-interiores/rev-interior-1.jpg' gallery={REV_INTERIOR} />

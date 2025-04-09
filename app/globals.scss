@@ -34,3 +34,14 @@ strong, .medium {
 .bold {
     font-family: $montserrat-bold;
 }
+
+.swiper-button-next, .swiper-button-prev {
+    background-color: #01222C;
+    padding: 4px
+  }
+
+@media (max-width: 800px) {
+    h4 {
+        font-size: 35px;
+    }
+}

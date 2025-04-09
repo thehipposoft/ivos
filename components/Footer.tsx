@@ -48,18 +48,18 @@ const Footer = () => {
         </iframe>
         <div className='flex flex-col gap-4'>
           <h5 className='text-white underline text-2xl bold'>Materiales</h5>
-          <Link className='text-white w-fit' href={''}>Revestimientos metálicos</Link>
-          <Link className='text-white w-fit' href={''}>Revestimientos WPC interiores</Link>
-          <Link className='text-white w-fit' href={''}>Revestimientos WPC interiores </Link>
-          <Link className='text-white w-fit' href={''}>Placas pvc Simil piedra</Link>
-          <Link className='text-white w-fit' href={''}>Smart Glass</Link>
+          <Link className='text-white w-fit hover:underline' href={'/materiales/perfiles-wpc'}>Perfiles WPC</Link>
+          <Link className='text-white w-fit hover:underline' href={'/materiales/revestimientos-interiores'}>Revestimientos WPC interiores</Link>
+          <Link className='text-white w-fit hover:underline' href={'/materiales/revestimientos-exteriores'}>Revestimientos WPC exteriores </Link>
+          <Link className='text-white w-fit hover:underline' href={'/materiales/placas-pvc'}>Placas pvc Simil piedra</Link>
+          <Link className='text-white w-fit hover:underline' href={'/materiales/smart-glass'}>Smart Glass</Link>
         </div>
         <div className='flex flex-col gap-4'>
           <h5 className='text-white underline text-2xl bold'>Nosotros</h5>
-          <Link className='text-white w-fit' href={''}>Contact</Link>
-          <Link className='text-white w-fit' href={''}>Preguntas Frecuentes</Link>
-          <Link className='text-white w-fit' href={''}>Proyectos</Link>
-          <Link className='text-white w-fit' href={''}>Trabajá con nosotros</Link>
+          <Link className='text-white w-fit hover:underline' href={'/#contacto'}>Contacto</Link>
+          <Link className='text-white w-fit hover:underline hidden' href={''}>Preguntas Frecuentes</Link>
+          <Link className='text-white w-fit hover:underline' href={'/proyectos'}>Proyectos</Link>
+          <Link className='text-white w-fit hover:underline hidden' href={''}>Trabajá con nosotros</Link>
         </div>
       </div>
       <Image src={'/assets/images/footer.png'} alt='' width={1216} height={116} className='mx-auto w-[85vw]'/>

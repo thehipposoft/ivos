@@ -5,8 +5,8 @@ import { ALUZINC } from '../constants'
 export default function AluzincPage() {
   return (
     <div className='flex flex-col pb-8'>
-        <div className='h-[200px] flex items-center'>
-            <h4 className='w-[85vw] mx-auto 2xl:w-[1300px]'>ALUZINC</h4>
+        <div className='h-[150px] flex items-center'>
+            <h4 className='w-[85vw] mx-auto 2xl:w-[1300px] uppercase'>ALUZINC</h4>
         </div>
         <GalleryComponent banner='/assets/images/materiales/aluzinc/aluzinc-1.jpg' gallery={ALUZINC} />
         <div className='flex md:flex-row flex-col 2xl:[1300px] w-[80vw] justify-between mx-auto gap-8 mt-16 mb-12'>

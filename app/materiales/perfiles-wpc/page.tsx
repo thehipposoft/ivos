@@ -5,8 +5,8 @@ import { PERFILES_WPC } from '../constants'
 export default function PlacasPVCPage() {
   return (
     <div className='flex flex-col'>
-        <div className='h-[200px] flex items-center'>
-            <h4 className='w-[85vw] mx-auto 2xl:w-[1300px]'>PERFILES DE WPC</h4>
+        <div className='h-[150px] flex items-center'>
+            <h4 className='w-[85vw] mx-auto 2xl:w-[1300px] uppercase'>PERFILES DE WPC</h4>
         </div>
         <GalleryComponent banner='/assets/images/materiales/perfiles-wpc/perfiles-1.jpg' gallery={PERFILES_WPC} />
         <div className='flex md:flex-row flex-col 2xl:[1300px] w-[85vw] md:w-[1100px] mx-auto gap-8 mt-16 mb-12'>

@@ -5,8 +5,8 @@ import { CHAPAS_CALADAS } from '../constants'
 export default function ChapasCaladasPage() {
   return (
     <div className='flex flex-col'>
-        <div className='h-[200px] flex items-center'>
-            <h4 className='w-[85vw] mx-auto 2xl:w-[1300px]'>Chapas Caladas</h4>
+        <div className='h-[150px] flex items-center'>
+            <h4 className='w-[85vw] mx-auto 2xl:w-[1300px] uppercase'>Chapas Caladas</h4>
         </div>
         <GalleryComponent banner='/assets/images/materiales/placas-pvc/placas-pvc1.jpg' gallery={CHAPAS_CALADAS} />
         <div className='flex flex-col-reverse gap-8 md:gap-0 pt-20 md:flex-row md:w-screen justify-between 2xl:[1300px] w-[85vw] mx-auto'>

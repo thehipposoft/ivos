@@ -6,8 +6,8 @@ import Image from 'next/image'
 export default function RevestimientoExteriorPage() {
   return (
     <div className='flex flex-col'>
-        <div className='h-[200px] flex items-center'>
-            <h4 className='w-[85vw] mx-auto 2xl:w-[1300px]'>Revestimiento exterior wpc</h4>
+        <div className='h-[150px] flex items-center'>
+            <h4 className='w-[85vw] mx-auto 2xl:w-[1300px] uppercase'>Revestimiento exterior wpc</h4>
         </div>
         <GalleryComponent banner='/assets/images/materiales/rev-exteriores/rev-exterior-1.jpg' gallery={REV_EXTERIOR} />
         <div className='flex flex-col-reverse py-6 md:py-0 md:h-screen gap-8 md:gap-32 md:flex-row w-screen justify-between md:justify-end items-center'>

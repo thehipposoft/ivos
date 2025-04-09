@@ -5,7 +5,7 @@ import { PANELES_ACUSTICOS } from '../constants'
 export default function PanelesAcusticosPage() {
   return (
     <div className='flex flex-col'>
-        <div className='h-[200px] flex items-center'>
+        <div className='h-[150px] flex items-center'>
             <h4 className='w-[85vw] mx-auto uppercase 2xl:w-[1300px]'>Paneles Acústicos</h4>
         </div>
         <GalleryComponent banner='/assets/images/materiales/paneles-acusticos/paneles-1.jpg' gallery={PANELES_ACUSTICOS} />

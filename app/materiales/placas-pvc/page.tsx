@@ -6,8 +6,8 @@ import Image from 'next/image'
 export default function PlacasPVCPage() {
   return (
     <div className='flex flex-col'>
-        <div className='h-[200px] flex items-center'>
-            <h4 className='w-[85vw] mx-auto 2xl:w-[1300px]'>Placas PVC</h4>
+        <div className='h-[150px] flex items-center'>
+            <h4 className='w-[85vw] mx-auto 2xl:w-[1300px] uppercase'>Placas PVC</h4>
         </div>
         <GalleryComponent banner='/assets/images/materiales/placas-pvc/placas-pvc1.jpg' gallery={PLACAS_PVC} />
         <div className='flex md:flex-row flex-col 2xl:[1300px] w-[85vw] md:w-[1100px] mx-auto gap-8 mt-16 mb-12'>
@@ -68,9 +68,9 @@ export default function PlacasPVCPage() {
         </div>
         <div className='flex flex-col py-8'>
           <h4 className='uppercase w-[85vw] mx-auto'>variedades</h4>
-          <div className='md:flex grid grid-cols-2 flex-row flex-wrap justify-between w-[85vw] py-8 mx-auto gap-8'>
+          <div className='md:flex grid grid-cols-2 flex-row flex-wrap justify-between md:w-[85vw] w-[90vw] py-8 mx-auto gap-8'>
             <div className='flex flex-col gap-2 w-fit relative'>
-                <div className='relative md:w-[205px] w-[170px] md:h-[205px] h-[170px] overflow-hidden'>
+                <div className='relative md:w-[205px] w-[150px] md:h-[205px] h-[150px] overflow-hidden'>
                     <Image src={'/assets/images/materiales/placas-pvc/placas-1.png'} alt='' fill className=' object-cover rounded-tl-[45px] rounded-br-[25px]' />
                 </div>
                 <div className='flex flex-col'>
@@ -80,7 +80,7 @@ export default function PlacasPVCPage() {
                 </div>
             </div>
             <div className='flex flex-col gap-2 w-fit relative'>
-                <div className='relative md:w-[205px] w-[170px] md:h-[205px] h-[170px] overflow-hidden'>
+                <div className='relative md:w-[205px] w-[150px] md:h-[205px] h-[150px] overflow-hidden'>
                     <Image src={'/assets/images/materiales/placas-pvc/placas-2.png'} alt='' fill className=' object-cover rounded-tl-[45px] rounded-br-[25px]' />
                 </div>
                 <div className='flex flex-col'>
@@ -90,7 +90,7 @@ export default function PlacasPVCPage() {
                 </div>
             </div>
             <div className='flex flex-col gap-2 w-fit relative'>
-                <div className='relative md:w-[205px] w-[170px] md:h-[205px] h-[170px] overflow-hidden'>
+                <div className='relative md:w-[205px] w-[150px] md:h-[205px] h-[150px] overflow-hidden'>
                     <Image src={'/assets/images/materiales/placas-pvc.png'} alt='' fill className=' object-cover rounded-tl-[45px] rounded-br-[25px]' />
                 </div>
                 <div className='flex flex-col'>
@@ -100,7 +100,7 @@ export default function PlacasPVCPage() {
                 </div>
             </div>
             <div className='flex flex-col gap-2 w-fit relative'>
-                <div className='relative md:w-[205px] w-[170px] md:h-[205px] h-[170px] overflow-hidden'>
+                <div className='relative md:w-[205px] w-[150px] md:h-[205px] h-[150px] overflow-hidden'>
                     <Image src={'/assets/images/materiales/placas-pvc/placas-3.jpg'} alt='' fill className=' object-cover rounded-tl-[45px] rounded-br-[25px]' />
                 </div>
                 <div className='flex flex-col'>

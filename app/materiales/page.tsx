@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function MaterialesPage() {
   return (
-    <div>
+    <div className='my-8'>
       <Materiales />
     </div>
   )
