@@ -4,9 +4,9 @@ import Link from 'next/link'
 
 const Materiales = () => {
   return (
-    <div className='md:h-screen flex flex-col w-[85vw] 2xl:w-[1250px] mx-auto' id='materiales'>
+    <div className='lg:h-screen flex flex-col w-[85vw] 2xl:w-[1250px] mx-auto' id='materiales'>
         <h4 className='uppercase'>Nuestros Materiales</h4>
-        <div className='grid md:gap-10 gap-4 pt-8 w-full md:grid-cols-4 grid-cols-2 grid-rows-2'>
+        <div className='grid md:gap-10 gap-4 pt-8 w-full lg:grid-cols-4 grid-cols-2 grid-rows-2'>
             <Link href={'/materiales/placas-pvc'} className='flex flex-col gap-2 w-fit group cursor-pointer relative'>
                 <div className='relative md:w-[215px] w-[40vw] md:h-[215px] h-[175px] overflow-hidden'>
                     <Image src={'/assets/images/materiales/placas-pvc.png'} alt='' fill className=' object-cover rounded-tl-[45px] rounded-br-[25px]' />

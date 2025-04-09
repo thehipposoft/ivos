@@ -2,7 +2,6 @@ export default async function getFeed() {
 
   const token = process.env.INSTAGRAM_TOKEN;
 
-
   const res = await fetch(
     `https://graph.instagram.com/me/media?fields=id,caption,media_url,permalink,media_type,thumbnail_url&limit=6&access_token=${token}`
   );
