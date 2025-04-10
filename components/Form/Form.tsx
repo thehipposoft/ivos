@@ -105,7 +105,7 @@ const MyCustomForm = ({
 
     return (
         <form
-            className={`form w-full flex flex-col`}
+            className={`form w-full grid grid-cols-2 gap-4`}
             onSubmit={(event) => handleSubmit(event)}
         >
             {
@@ -115,7 +115,7 @@ const MyCustomForm = ({
                     switch (type) {
                         case 'textArea':
                             return (
-                                <section className={'mb-4'} key={name}>
+                                <section className={'mb-4 col-span-2'} key={name}>
                                     <label className={'contact-label'}>{label}</label>
                                     <textarea
                                         name={name}
@@ -132,7 +132,7 @@ const MyCustomForm = ({
                             );
                         case 'tel':
                             return (
-                                <section className='mb-4 md:w-[49%]' key={name}>
+                                <section className='mb-4 col-span-2 md:col-span-1' key={name}>
                                     <label className={'contact-label'}>{label}</label>
                                     <input
                                         type={type}
@@ -147,7 +147,7 @@ const MyCustomForm = ({
                             );
                         default:
                             return (
-                                <section className='mb-4 md:w-[49%]' key={name}>
+                                <section className='mb-4 col-span-2 md:col-span-1' key={name}>
                                     <label className={'contact-label'}>{label}</label>
                                     <input
                                         type={type}
@@ -165,7 +165,7 @@ const MyCustomForm = ({
                 })
             }
             {renderSentMessage()}
-            <div className='flex'>
+            <div className='flex col-span-2'>
                 <button
                     disabled={isAPILoading}
                     value={submitButtonLabel ? submitButtonLabel : 'Send'}

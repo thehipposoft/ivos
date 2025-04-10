@@ -14,7 +14,7 @@ import getFeed from "@/api/getFeed";
 export default async function Home() {
 
   const instagramFeed: Post[] = await getFeed();
-  
+
   return (
     <div className="">
       <Header />
