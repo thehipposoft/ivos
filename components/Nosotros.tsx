@@ -21,7 +21,7 @@ const Nosotros = () => {
             </div>
         </div>
         <div className='h-[90px] relative w-screen flex items-center'>
-            <Image src={'/assets/images/nosotros/nosotros-banne.png'} alt='' fill className='object-cover' />
+            <Image src={'/assets/images/nosotros/nosotros-banne.png'} alt='Fondo con logo de IVOS' fill className='object-cover' />
             <div className='flex relative z-10 justify-end w-[90vw] 2xl:w-[1300px] mx-auto'>
                 <div className='flex gap-8 bg-white h-[50px] items-center rounded-tl-[30px] rounded-br-[30px] md:px-16 px-6'>
                     <p className='bold uppercase text-sm'>Arq. Ignacio Nieva Toppa</p>

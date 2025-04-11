@@ -4,17 +4,17 @@ import Slider from './commons/Slider'
 const IMAGES = [
   {
     src: '/assets/images/banner/banner.jpg',
-    alt: '',
+    alt: 'Proyecto 1',
     title: 'Revestimientos WPC Interiores'
   },
   {
     src: '/assets/images/materiales/paneles-acusticos.jpg',
-    alt: '',
+    alt: 'Proyecto 2',
     title: 'Title two'
   },
   {
     src: '/assets/images/materiales/aluzinc.jpg',
-    alt: '',
+    alt: 'Proyecto 3',
     title: 'Title three'
   },
 ]

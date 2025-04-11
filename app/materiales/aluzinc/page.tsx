@@ -1,6 +1,12 @@
 import GalleryComponent from '@/components/commons/GalleryComponent'
 import React from 'react'
 import { ALUZINC } from '../constants'
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'IVOS | Aluzinc',
+  description: 'Revestimiento metálico de chapa revestida con una disposición macho-hembra que permite el acople de los paneles entre sí. Su característica estética, revela una dramática textura unidireccional, que se puede instalar en cualquier sentido.',
+}
 
 export default function AluzincPage() {
   return (

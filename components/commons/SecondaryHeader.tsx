@@ -15,7 +15,7 @@ const SecondaryHeader = () => {
   return (
     <div className='w-screen z-10 top-0'>
         <div className='w-screen '>
-            <div className='md:w-[85vw] 2xl:w-[1300px] flex justify-between mx-auto items-center'>
+            <div className='lg:w-[85vw] md:w-[90vw] 2xl:w-[1300px] flex justify-between mx-auto items-center'>
                 <Link href={'/'}>
                   <Image src={'/assets/images/logo-petroleo.png'} alt='Logo' width={901} height={581} className='md:w-[180px] w-[150px] md:h-[120px]' />
                 </Link>
@@ -32,10 +32,10 @@ const SecondaryHeader = () => {
                   </nav>
                 </div>
                 <nav className='sm:flex gap-12 hidden'>
-                    <Link className={`${currentPath.includes('materiales') ? 'text-[#F94E19]' : ''} text-[#01222C] duration-500 text-[18px] medium hover:text-[#F94E19]`} href={'/materiales'}>Materiales</Link>
-                    <Link className='text-[#01222C] duration-500 text-[18px] medium hover:text-[#F94E19]' href={'/#nosotros'}>Nosotros</Link>
-                    <Link className='text-[#01222C] duration-500 text-[18px] medium hover:text-[#F94E19]' href={'/#redes-sociales'}>Redes Sociales</Link>
-                    <Link className='text-[#01222C] duration-500 text-[18px] medium hover:text-[#F94E19]' href={'/#contacto'}>Contacto</Link>
+                    <Link className={`${currentPath.includes('materiales') ? 'text-[#F94E19]' : ''} text-[#01222C] duration-500 text-[18px] md:text-base medium hover:text-[#F94E19]`} href={'/materiales'}>Materiales</Link>
+                    <Link className='text-[#01222C] duration-500 text-[18px] md:text-base medium hover:text-[#F94E19]' href={'/#nosotros'}>Nosotros</Link>
+                    <Link className='text-[#01222C] duration-500 text-[18px] md:text-base medium hover:text-[#F94E19]' href={'/#redes-sociales'}>Redes Sociales</Link>
+                    <Link className='text-[#01222C] duration-500 text-[18px] md:text-base medium hover:text-[#F94E19]' href={'/#contacto'}>Contacto</Link>
                 </nav>
             </div>
         </div>

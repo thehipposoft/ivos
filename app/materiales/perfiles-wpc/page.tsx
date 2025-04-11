@@ -1,6 +1,12 @@
 import GalleryComponent from '@/components/commons/GalleryComponent'
 import React from 'react'
 import { PERFILES_WPC } from '../constants'
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'IVOS | Perfiles de WPC',
+  description: 'Los perfiles de WPC (Wood Plastic Composite) tienen todas las ventajas de la madera sin sus inconvenientes. Además de ser 100% resistentes al agua, la mezcla de resina de celulosa y PVC les permiten ser resistente a los rayos UV, a sustancias químicas como el cloro y a los golpes.',
+}
 
 export default function PlacasPVCPage() {
   return (
@@ -9,13 +15,13 @@ export default function PlacasPVCPage() {
             <h4 className='w-[85vw] mx-auto 2xl:w-[1300px] uppercase'>PERFILES DE WPC</h4>
         </div>
         <GalleryComponent banner='/assets/images/materiales/perfiles-wpc/perfiles-1.jpg' gallery={PERFILES_WPC} />
-        <div className='flex md:flex-row flex-col 2xl:[1300px] w-[85vw] md:w-[1100px] mx-auto gap-8 mt-16 mb-12'>
-            <div className='flex flex-col gap-4 md:w-[510px]'>
+        <div className='flex lg:flex-row flex-col 2xl:[1300px] w-[85vw] lg:w-[1100px] mx-auto gap-8 mt-16 mb-12'>
+            <div className='flex flex-col gap-4 lg:w-[510px]'>
               <p className='text-lg'>Los perfiles de WPC (Wood Plastic Composite) tienen todas las ventajas de la madera sin sus inconvenientes. Además de ser 100% resistentes al agua, la mezcla de resina de celulosa y PVC les permiten ser resistente a los rayos UV, a sustancias químicas como el cloro y a los golpes.</p>
               <p className='text-lg'>Vienen en 3 formatos diferentes, lo que permite lograr diferentes diseños</p>
               <p className='text-lg'>Nuestros perfiles son ideales para utilizarse con fines decorativos, tanto en exterior como en interior.</p>
             </div>
-            <div className='flex flex-col gap-4 md:w-[510px]'>
+            <div className='flex flex-col gap-4 lg:w-[510px]'>
               <p className='text-lg'>Cuentan con textura rústica, símil madera, y se fabrican en diversos colores </p>
               <p className='text-lg'>No requieren mantenimiento, posibilitándote disfrutarlos por más tiempo, sin esfuerzos ni gastos extras.</p>
               <p className='text-lg'>Permiten renovar tu hogar y crear proyectos en poco tiempo.</p>

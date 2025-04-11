@@ -13,7 +13,7 @@ const Novedad = () => {
 
   return (
     <div className='h-screen flex items-center gap-20 2xl:w-[1400px] mx-auto w-[85vw] md:w-full'>
-        <Image src={'/assets/images/novedad-elipsis.png'} alt='' width={248} height={585} className='object-contain object-left hidden md:block' />
+        <Image src={'/assets/images/novedad-elipsis.png'} alt='Elipsis' width={248} height={585} className='object-contain object-left hidden md:block' />
         <div className='flex lg:flex-row flex-col gap-8 md:justify-center'>
             <div className='flex flex-col gap-4'>
                 <h2 className='uppercase md:text-[80px] text-[50px] bluet md:leading-[80px]'>novedad &lt;</h2>

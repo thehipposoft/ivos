@@ -1,6 +1,12 @@
 import GalleryComponent from '@/components/commons/GalleryComponent'
 import React from 'react'
 import { CHAPAS_CALADAS } from '../constants'
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'IVOS | Chapas Caladas',
+  description: 'Las chapas caladas son una solución versátil y estética para quienes buscan diseño, resistencia y personaliza-ción en elementos arquitectónicos. Fabricadas con tecnología de corte láser CNC, permiten crear patrones únicos con máxima precisión, adaptándose a cualquier proyecto.',
+}
 
 export default function ChapasCaladasPage() {
   return (
@@ -9,9 +15,9 @@ export default function ChapasCaladasPage() {
             <h4 className='w-[85vw] mx-auto 2xl:w-[1300px] uppercase'>Chapas Caladas</h4>
         </div>
         <GalleryComponent banner='/assets/images/materiales/placas-pvc/placas-pvc1.jpg' gallery={CHAPAS_CALADAS} />
-        <div className='flex flex-col-reverse gap-8 md:gap-0 pt-20 md:flex-row md:w-screen justify-between 2xl:[1300px] w-[85vw] mx-auto'>
+        <div className='flex flex-col-reverse gap-8 lg:gap-0 pt-20 lg:flex-row md:w-screen justify-between 2xl:[1300px] w-[85vw] mx-auto'>
           <div className='flex md:flex-row flex-col mx-auto gap-8 md:mt-16 mt-8 mb-12'>
-              <div className='flex flex-col gap-4 md:w-[510px]'>
+              <div className='flex flex-col gap-4 lg:w-[510px] md:w-[85vw]'>
                 <p className='text-lg'>Las chapas caladas son una solución versátil y estética para quienes buscan diseño, resistencia y personaliza-ción en elementos arquitectónicos. Fabricadas con tecnología de corte láser CNC, permiten crear patrones únicos con máxima precisión, adaptándose a cualquier proyecto.</p>
               </div>
           </div>
@@ -34,7 +40,7 @@ export default function ChapasCaladasPage() {
             </div>
           </div>
         </div>
-        <div className='md:flex-row  2xl:[1300px] md:w-[1300px] w-[85vw] mx-auto  justify-between '>
+        <div className='md:flex-row  2xl:[1300px] lg:w-[1300px] w-[85vw] mx-auto  justify-between '>
           <p className='medium text-xl'>Aplicaciones</p>
           <ul className='list-disc pl-8 flex flex-col gap-2 pt-4'>
             <li className='text-lg'>Puertas y portones con diseños exclusivos.</li>
@@ -44,16 +50,16 @@ export default function ChapasCaladasPage() {
             <li className='text-lg'>Fachadas metálicas que combinan diseño y funcionalidad.</li>
           </ul>
         </div>
-        <div className='md:flex-row 2xl:[1300px] md:w-[1300px] w-[85vw] mx-auto pt-12 justify-between '>
+        <div className='md:flex-row 2xl:[1300px] lg:w-[1300px] w-[85vw] mx-auto pt-12 justify-between '>
           <p className='medium text-xl'>Medidas disponibles:</p>
-          <div className='flex flex-col md:flex-row gap-8 md:gap-0 justify-between'>
+          <div className='flex flex-col md:flex-row gap-8 lg:gap-0 justify-between'>
             <div>
               <ul className='list-disc pl-8 flex flex-col gap-2 pt-4'>
                 <li className='text-lg'>1 x 2 m</li>
                 <li className='text-lg'>1,22 x 2,44 m</li>
               </ul>
             </div>
-            <div className='rounded-tl-[40px] bg-[#F94E19] md:w-[70vw] flex items-center pl-12 h-[140px]'>
+            <div className='rounded-tl-[40px] bg-[#F94E19] lg:w-[70vw] md:w-[60vw] flex items-center pl-12 h-[140px]'>
               <p className='medium text-lg'>
               &gt;&gt;También realizamos diseños 100% personalizados, ajustándonos<br/>
               a tu idea y necesidades.&gt;&gt;
