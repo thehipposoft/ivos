@@ -24,7 +24,12 @@ const LightBox = ({projectImages, isGalleryOpen, closeGallery, videoLightBox}:Ga
             {
                 videoLightBox ?
                 <div>
-                    <h1 className='text-6xl text-white'>JOY BOY!!!</h1>
+                    <video 
+                        width={350}
+                        height={700}
+                        controls
+                        src='https://res.cloudinary.com/du31j65g6/video/upload/v1744405380/eeogzhjg7hesvfc7gjrd.mp4'
+                    />
                 </div>
                 :
                 <LightBoxSlider projectImages={projectImages}/>

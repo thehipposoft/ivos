@@ -52,6 +52,19 @@ strong, .medium {
     color: #FFFFFF;
 }
 
+#header-nav {
+    animation: blur linear both;
+    animation-timeline: scroll();
+    animation-range: 0 400px;
+  }
+  
+  @keyframes blur {
+    to {
+      background: #01222c53;
+      backdrop-filter: blur(7px);
+    }
+  }
+
 @media (max-width: 800px) {
     h4 {
         font-size: 35px;
