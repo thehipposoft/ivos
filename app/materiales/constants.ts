@@ -54,70 +54,70 @@ const ALUZINC = [
 
 const REV_INTERIOR = [
     {
-        src: '/assets/images/materiales/rev-interior/rev-interior-1.jpg',
+        src: '/assets/images/materiales/rev-interiores/rev-interior-1.jpg',
         alt: 'Material Revestimiento Interior',
     },
     {
-        src: '/assets/images/materiales/rev-interior/rev-interior-2.jpg',
+        src: '/assets/images/materiales/rev-interiores/rev-interior-2.jpg',
         alt: 'aterial Revestimiento Interior',
     },
     {
-        src: '/assets/images/materiales/rev-interior/rev-interior-3.jpg',
+        src: '/assets/images/materiales/rev-interiores/rev-interior-3.jpg',
         alt: 'aterial Revestimiento Interior',
     },
     {
-        src: '/assets/images/materiales/rev-interior/rev-interior-4.jpg',
+        src: '/assets/images/materiales/rev-interiores/rev-interior-4.jpg',
         alt: 'aterial Revestimiento Interior',
     },
     {
-        src: '/assets/images/materiales/rev-interior/rev-interior-5.jpg',
+        src: '/assets/images/materiales/rev-interiores/rev-interior-5.jpg',
         alt: 'aterial Revestimiento Interior',
     },
     {
-        src: '/assets/images/materiales/rev-interior/rev-interior-6.jpg',
+        src: '/assets/images/materiales/rev-interiores/rev-interior-6.jpg',
         alt: 'aterial Revestimiento Interior',
     },
     {
-        src: '/assets/images/materiales/rev-interior/rev-interior-7.jpg',
+        src: '/assets/images/materiales/rev-interiores/rev-interior-7.jpg',
         alt: 'aterial Revestimiento Interior',
     },
 ]
 
 const REV_EXTERIOR = [
     {
-        src: '/assets/images/materiales/rev-exterior/rev-exterior-1.jpg',
+        src: '/assets/images/materiales/rev-exteriores/rev-exterior-1.jpg',
         alt: 'Material Revestimiento Exterior',
     },
     {
-        src: '/assets/images/materiales/rev-exterior/rev-exterior-2.jpg',
+        src: '/assets/images/materiales/rev-exteriores/rev-exterior-2.jpg',
         alt: 'Material Revestimiento Exterior',
     },
     {
-        src: '/assets/images/materiales/rev-exterior/rev-exterior-3.jpg',
+        src: '/assets/images/materiales/rev-exteriores/rev-exterior-3.jpg',
         alt: 'Material Revestimiento Exterior',
     },
     {
-        src: '/assets/images/materiales/rev-exterior/rev-exterior-4.jpg',
+        src: '/assets/images/materiales/rev-exteriores/rev-exterior-4.jpg',
         alt: 'Material Revestimiento Exterior',
     },
     {
-        src: '/assets/images/materiales/rev-exterior/rev-exterior-5.jpg',
+        src: '/assets/images/materiales/rev-exteriores/rev-exterior-5.jpg',
         alt: 'Material Revestimiento Exterior',
     },
     {
-        src: '/assets/images/materiales/rev-exterior/rev-exterior-6.jpg',
+        src: '/assets/images/materiales/rev-exteriores/rev-exterior-6.jpg',
         alt: 'Material Revestimiento Exterior',
     },
     {
-        src: '/assets/images/materiales/rev-exterior/rev-exterior-7.jpg',
+        src: '/assets/images/materiales/rev-exteriores/rev-exterior-7.jpg',
         alt: 'Material Revestimiento Exterior',
     },
     {
-        src: '/assets/images/materiales/rev-exterior/rev-exterior-8.jpg',
+        src: '/assets/images/materiales/rev-exteriores/rev-exterior-8.jpg',
         alt: 'Material Revestimiento Exterior',
     },
     {
-        src: '/assets/images/materiales/rev-exterior/rev-exterior-9.jpg',
+        src: '/assets/images/materiales/rev-exteriores/rev-exterior-9.jpg',
         alt: 'Material Revestimiento Exterior',
     },
 ]
@@ -167,82 +167,78 @@ const PANELES_ACUSTICOS = [
 
 const CHAPAS_CALADAS = [
     {
-        src: '/assets/images/materiales/chapas-caladas/chapas-caladas-1.jpg',
+        src: '/assets/images/materiales/chapas-caladas/chapas-1.jpg',
         alt: 'Material Chapas Caladas',
     },
     {
-        src: '/assets/images/materiales/chapas-caladas/chapas-caladas-2.jpg',
+        src: '/assets/images/materiales/chapas-caladas/chapas-2.jpg',
         alt: 'Material Chapas Caladas',
     },
     {
-        src: '/assets/images/materiales/chapas-caladas/chapas-caladas-3.jpg',
+        src: '/assets/images/materiales/chapas-caladas/chapas-3.jpg',
         alt: 'Material Chapas Caladas',
     },
     {
-        src: '/assets/images/materiales/chapas-caladas/chapas-caladas-4.jpg',
+        src: '/assets/images/materiales/chapas-caladas/chapas-4.jpg',
         alt: 'Material Chapas Caladas',
     },
     {
-        src: '/assets/images/materiales/chapas-caladas/chapas-caladas-5.jpg',
+        src: '/assets/images/materiales/chapas-caladas/chapas-5.jpg',
         alt: 'Material Chapas Caladas',
     },
     {
-        src: '/assets/images/materiales/chapas-caladas/chapas-caladas-6.jpg',
+        src: '/assets/images/materiales/chapas-caladas/chapas-6.jpg',
         alt: 'Material Chapas Caladas',
     },
     {
-        src: '/assets/images/materiales/chapas-caladas/chapas-caladas-7.jpg',
+        src: '/assets/images/materiales/chapas-caladas/chapas-7.jpg',
         alt: 'Material Chapas Caladas',
     },
     {
-        src: '/assets/images/materiales/chapas-caladas/chapas-caladas-8.jpg',
+        src: '/assets/images/materiales/chapas-caladas/chapas-8.jpg',
         alt: 'Material Chapas Caladas',
     },
     {
-        src: '/assets/images/materiales/chapas-caladas/chapas-caladas-9.jpg',
+        src: '/assets/images/materiales/chapas-caladas/chapas-9.jpg',
         alt: 'Material Chapas Caladas',
     },
     {
-        src: '/assets/images/materiales/chapas-caladas/chapas-caladas-10.jpg',
+        src: '/assets/images/materiales/chapas-caladas/chapas-10.jpg',
         alt: 'Material Chapas Caladas',
     },
 ]
 
 const PERFILES_WPC = [
     {
-        src: '/assets/images/materiales/perfiles-wpc/perfiles-wpc-1.jpg',
+        src: '/assets/images/materiales/perfiles-wpc/perfiles-1.jpg',
         alt: 'Material Perfiles WPC',
     },
     {
-        src: '/assets/images/materiales/perfiles-wpc/perfiles-wpc-2.jpg',
+        src: '/assets/images/materiales/perfiles-wpc/perfiles-2.jpg',
         alt: 'Material Perfiles WPC',
     },
     {
-        src: '/assets/images/materiales/perfiles-wpc/perfiles-wpc-3.jpg',
+        src: '/assets/images/materiales/perfiles-wpc/perfiles-3.jpg',
         alt: 'Material Perfiles WPC',
     },
     {
-        src: '/assets/images/materiales/perfiles-wpc/perfiles-wpc-4.jpg',
+        src: '/assets/images/materiales/perfiles-wpc/perfiles-4.jpg',
         alt: 'Material Perfiles WPC',
     },
     {
-        src: '/assets/images/materiales/perfiles-wpc/perfiles-wpc-5.jpg',
+        src: '/assets/images/materiales/perfiles-wpc/perfiles-5.jpg',
         alt: 'Material Perfiles WPC',
     },
     {
-        src: '/assets/images/materiales/perfiles-wpc/perfiles-wpc-6.jpg',
+        src: '/assets/images/materiales/perfiles-wpc/perfiles-6.jpg',
         alt: 'Material Perfiles WPC',
     },
     {
-        src: '/assets/images/materiales/perfiles-wpc/perfiles-wpc-7.jpg',
+        src: '/assets/images/materiales/perfiles-wpc/perfiles-7.jpg',
         alt: 'Material Perfiles WPC',
     },
     {
-        src: '/assets/images/materiales/perfiles-wpc/perfiles-wpc-8.jpg',
-        alt: 'Material Perfiles WPC',
-    },
-    {
-        src: '/assets/images/materiales/perfiles-wpc/perfiles-wpc-9.jpg',
+        src: '/assets/images/materiales/perfiles-wpc/perfiles-8.jpg',
         alt: 'Material Perfiles WPC',
     },
 ]

@@ -58,13 +58,13 @@ const Footer = () => {
           <h5 className='text-white underline text-2xl bold'>Nosotros</h5>
           <Link className='text-white w-fit hover:underline' href={'/#contacto'}>Contacto</Link>
           <Link className='text-white w-fit hover:underline hidden' href={''}>Preguntas Frecuentes</Link>
-          <Link className='text-white w-fit hover:underline' href={'/proyectos'}>Proyectos</Link>
+          <Link className='text-white w-fit hover:underline' href={'/#proyectos'}>Proyectos</Link>
           <Link className='text-white w-fit hover:underline hidden' href={''}>Trabajá con nosotros</Link>
         </div>
       </div>
       <Image src={'/assets/images/footer.png'} alt='' width={1216} height={116} className='mx-auto w-[85vw]'/>
-      <div className='w-[85vw] mx-auto flex justify-center'>
-        <Link href={'/'} className='text-white/50 md:text-lg py-5 hover:underline'>Created by <strong className='text-white'>HippoSoft</strong> | All Right Reserved</Link>
+      <div className='md:w-[85vw] w-[90vw] mx-auto flex justify-center'>
+        <Link href={'https://www.thehipposoft.com/'} target='_blank' className='text-white/50 md:text-lg py-5 hover:underline'>Created by <strong className='text-white'>HippoSoft</strong> | All Right Reserved</Link>
       </div>
     </div>
   )
