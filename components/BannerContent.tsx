@@ -29,7 +29,6 @@ const BannerContent = () => {
     gsap.to('.elipsis', {
         rotate: '100deg',
         scrollTrigger: {
-            markers: true,
             trigger: container.current,
             start: 'center center',
             end: 'center end',
