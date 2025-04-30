@@ -21,7 +21,7 @@ const IMAGES = [
 
 const Proyectos = () => {
   return (
-    <div className='flex flex-col my-20' id='proyectos'>
+    <div className='flex flex-col my-20 hidden' id='proyectos'>
         <div className=''>
             <h4 className='uppercase w-[85vw] mx-auto pb-8'>Nuestros proyectos</h4>
             <Slider proyects={IMAGES} />

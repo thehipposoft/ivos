@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.scss";
+import WhatsApp from "@/components/commons/WhatsApp";
 
 export const metadata: Metadata = {
   title: "IVOS | Remodelá sin obra",
@@ -15,6 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {children}
+        <WhatsApp />
       </body>
     </html>
   );

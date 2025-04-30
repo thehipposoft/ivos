@@ -30,7 +30,7 @@ const Header = ({ hiddeOnDesktop }:HeaderPropsTypes) => {
   return (
     <div ref={container} className={`${hiddeOnDesktop ? 'lg:hidden' : 'lg:block'} w-screen fixed z-50 top-0`} id='header-nav'>
         <div className='md:w-[85vw] w-screen flex justify-between mx-auto items-center relative'>
-            <div className='bg-white/20 drop-shadow-xl backdrop-blur-sm p-2 rounded-lg ml-4 md:ml-0'>
+            <div className=' p-2 rounded-lg ml-4 md:ml-0'>
               <Image src={'/assets/images/logo.png'} alt='Logo IVOS' width={1028} height={338} className='md:w-[162px] w-[180px] md:h-[52px] ' />
             </div>
             <button onClick={handleToggleMenu} className='header group w-20 h-20 bg-[#F94E19] flex justify-center items-center cursor-pointer relative z-40'>
