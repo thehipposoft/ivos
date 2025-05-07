@@ -19,7 +19,7 @@ const Footer = () => {
           </div>
           <Link className='text-white hover:underline' href={'tel:+543875296426'}>+54 9 387 529-6426</Link>
         </div>
-        <div className='flex gap-6 justify-between md:justify-start'>
+        <div className='flex gap-6 justify-between md:justify-start hidden'>
             <Link href={'/'}>
               <svg width="16" height="17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.0625.625c.9141 0 1.6875.77344 1.6875 1.6875v12.375c0 .9492-.7734 1.6875-1.6875 1.6875H9.21094v-5.3438H11.25L11.6367 8.5H9.21094V6.88281c0-.70312.35156-1.37109 1.44136-1.37109h1.0899V3.36719s-.9844-.17578-1.96876-.17578c-1.96875 0-3.26953 1.23047-3.26953 3.41015V8.5H4.28906v2.5312h2.21485v5.3438H1.6875C.738281 16.375 0 15.6367 0 14.6875V2.3125C0 1.39844.738281.625 1.6875.625h12.375Z" fill="#fff"/></svg>
             </Link>
