@@ -49,7 +49,7 @@ const MyCustomForm = ({
     const renderSentMessage = () => {
         if (messageSent === 'succeed') {
             return <div className={`message succeed w-full text-center mb-6`}>
-                <h2 className={'mb-2 text-2xl text-black'}>Gracias!</h2>
+                <h2 className={'mb-2 text-3xl text-black'}>Gracias!</h2>
                 <p className='text-black'>{onSuccessMessage}</p>
             </div>
         }
@@ -138,6 +138,8 @@ const MyCustomForm = ({
                                         type={type}
                                         name={name}
                                         id={name}
+                                        pattern="[0-9]*"
+                                        inputMode="numeric"
                                         className={'py-4 px-6 border-[3px] border-[#30505B] rounded-[42px] w-full focus:outline-none focus:placeholder:text-gray-400 placeholder:text-black'}
                                         onChange={handleChange}
                                         placeholder={placeholder}
@@ -168,7 +170,7 @@ const MyCustomForm = ({
             <div className='flex col-span-2'>
                 <button
                     disabled={isAPILoading}
-                    value={submitButtonLabel ? submitButtonLabel : 'Send'}
+                    value={submitButtonLabel ? submitButtonLabel : 'Enviar'}
                     type="submit"
                     className={` ${isAPILoading ? 'opacity-50' : ''} cursor-pointer md:w-[180px] bold flex items-center justify-center w-1/2 h-[70px] bg-[#F94E19] border-[#F94E19] border-[3px] border duration-500 hover:bg-transparent rounded-tl-[30px] rounded-br-[30px]`}
                 >
