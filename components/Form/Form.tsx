@@ -4,12 +4,12 @@ import axios from 'axios';
 
 const initialValues = {
     name: '',
-    telefono: 0,
+    phoneNumber: 0,
     message: '',
 };
 
 type FieldsType = {
-    name: 'name' | 'telefono' | 'message';
+    name: 'name' | 'phoneNumber' | 'message';
     type: 'text' | 'textArea' | 'tel' | 'email';
     label: string;
     placeholder: string;
@@ -26,7 +26,7 @@ type MyCustomFormProps = {
 
 type FormValues = {
     name: string;
-    telefono: number;
+    phoneNumber: number;
     message: string;
 };
 
@@ -42,7 +42,7 @@ const MyCustomForm = ({
     const [messageDescription, setMessageDescription] = useState<string>('');
     const [values, setValues] = useState<FormValues>({
         name: '',
-        telefono: 0,
+        phoneNumber: 0,
         message: '',
     });
 
@@ -81,7 +81,7 @@ const MyCustomForm = ({
             emailServiceURL,
             {
                 name: values.name,
-                telefono: values.telefono,
+                phoneNumber: values.phoneNumber,
                 message: values.message,
             },
             {

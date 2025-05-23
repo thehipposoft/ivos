@@ -17,7 +17,7 @@ const Contact = () => {
                             required: true,
                         },
                         {
-                            name: 'telefono',
+                            name: 'phoneNumber',
                             type: 'tel',
                             label: '',
                             placeholder: 'Teléfono*',
