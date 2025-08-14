@@ -15,6 +15,7 @@ const InstagramFeed = ({feedData}:FeedData) => {
           className="group overflow-hidden shadow lg:h-[400px] h-[200px] w-[40vw] lg:w-[400px] hover:shadow-lg transition relative"
         >
             <Image
+                unoptimized
                 fill
                 src={`${val.media_type === 'VIDEO' ? val.thumbnail_url : val.media_url}`}
                 alt={val.caption?.slice(0, 100) || 'Instagram post'}
