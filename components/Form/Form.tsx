@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from 'react';
-import axios from 'axios';
 
 const initialValues = {
     name: '',
@@ -36,7 +35,7 @@ const MyCustomForm = ({
     onErrorMessage,
     emailServiceURL,
     submitButtonLabel
-}:MyCustomFormProps) => {
+}: MyCustomFormProps) => {
     const [messageSent, setMessageSent] = useState<string>('');
     const [isAPILoading, setIsAPILoading] = useState<boolean>(false);
     const [messageDescription, setMessageDescription] = useState<string>('');
@@ -73,30 +72,29 @@ const MyCustomForm = ({
         });
     };
 
-    const handleSubmit = (event:any) => {
+    const handleSubmit = (event: any) => {
         if (event) event.preventDefault();
 
         setIsAPILoading(true);
-        axios.post(
-            emailServiceURL,
-            {
+        fetch(emailServiceURL, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'accept': 'application/json, text/plain, */*',
+            },
+            body: JSON.stringify({
                 name: values.name,
                 phoneNumber: values.phoneNumber,
                 message: values.message,
-            },
-            {
-                headers: {
-                    'Content-Type': 'application/json',
-                    'accept': 'application/json, text/plain, */*',
-                },
-            }
-        )
-            .then(function (response) {
+            }),
+        })
+            .then((response) => {
+                if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
                 setValues(initialValues);
                 setMessageSent('succeed');
                 setIsAPILoading(false);
             })
-            .catch(function (error) {
+            .catch((error: Error) => {
                 setMessageDescription(error.toString());
                 setMessageSent('error');
                 setIsAPILoading(false);
@@ -109,7 +107,7 @@ const MyCustomForm = ({
             onSubmit={(event) => handleSubmit(event)}
         >
             {
-                fields.map((field)=> {
+                fields.map((field) => {
                     const { name, type, label, placeholder } = field;
 
                     switch (type) {
