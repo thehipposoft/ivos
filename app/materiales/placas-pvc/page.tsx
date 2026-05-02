@@ -3,10 +3,12 @@ import React from 'react'
 import { PLACAS_PVC } from '../constants'
 import Image from 'next/image'
 import type { Metadata } from 'next'
- 
+
 export const metadata: Metadata = {
-  title: 'IVOS | Placas PVC',
-  description: 'Las placas UV son revestimientos de pared ideales para colocar en espacios interiores y semiexteriores gracias a su composición de polvo de calcio y PVC, que las hace muy resistentes.',
+  title: 'Placas PVC',
+  description: 'Las placas UV son revestimientos de pared ideales para interiores y semiexteriores. Impermeables, ignífugas y de fácil instalación con cemento de contacto. Sin necesidad de obra.',
+  alternates: { canonical: 'https://ivos.com.ar/materiales/placas-pvc' },
+  openGraph: { url: 'https://ivos.com.ar/materiales/placas-pvc' },
 }
 
 export default function PlacasPVCPage() {

@@ -2,10 +2,12 @@ import GalleryComponent from '@/components/commons/GalleryComponent'
 import React from 'react'
 import { SMART_GLASS } from '../constants'
 import type { Metadata } from 'next'
- 
+
 export const metadata: Metadata = {
-  title: 'IVOS | Smart Glass',
-  description: 'El Smart Film es la opción perfecta para renovar su sistema gracias a su fácil instalación.',
+  title: 'Smart Glass',
+  description: 'Smart Glass y Smart Film: vidrio inteligente de opacidad regulable para oficinas, baños y divisiones. Instalación sencilla que transforma cualquier vidrio existente en una superficie privada o transparente.',
+  alternates: { canonical: 'https://ivos.com.ar/materiales/smart-glass' },
+  openGraph: { url: 'https://ivos.com.ar/materiales/smart-glass' },
 }
 
 export default function SmartglassPage() {

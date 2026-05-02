@@ -2,10 +2,12 @@ import GalleryComponent from '@/components/commons/GalleryComponent'
 import React from 'react'
 import { CHAPAS_CALADAS } from '../constants'
 import type { Metadata } from 'next'
- 
+
 export const metadata: Metadata = {
-  title: 'IVOS | Chapas Caladas',
-  description: 'Las chapas caladas son una solución versátil y estética para quienes buscan diseño, resistencia y personaliza-ción en elementos arquitectónicos. Fabricadas con tecnología de corte láser CNC, permiten crear patrones únicos con máxima precisión, adaptándose a cualquier proyecto.',
+  title: 'Chapas Caladas',
+  description: 'Chapas caladas con corte láser CNC: diseño, resistencia y personalización para elementos arquitectónicos. Patrones únicos con máxima precisión para cualquier proyecto de construcción o decoración.',
+  alternates: { canonical: 'https://ivos.com.ar/materiales/chapas-caladas' },
+  openGraph: { url: 'https://ivos.com.ar/materiales/chapas-caladas' },
 }
 
 export default function ChapasCaladasPage() {

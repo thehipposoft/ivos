@@ -2,10 +2,12 @@ import GalleryComponent from '@/components/commons/GalleryComponent'
 import React from 'react'
 import { REV_EXTERIOR } from '../constants'
 import type { Metadata } from 'next'
- 
+
 export const metadata: Metadata = {
-  title: 'IVOS | Revestimiento Exterior WPC',
-  description: 'Nuestro revestimiento acanalado, conocido como Wall Panel de WPC co-extruído, está proyectado y fabricado tanto para exterior como para interior.',
+  title: 'Revestimiento Exterior WPC',
+  description: 'Wall Panel de WPC co-extruído para exterior e interior. Resistente a la intemperie, rayos UV y humedad. Ideal para fachadas y jardines con estética de madera sin mantenimiento.',
+  alternates: { canonical: 'https://ivos.com.ar/materiales/revestimientos-exteriores' },
+  openGraph: { url: 'https://ivos.com.ar/materiales/revestimientos-exteriores' },
 }
 
 export default function RevestimientoExteriorPage() {

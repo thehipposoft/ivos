@@ -2,10 +2,12 @@ import GalleryComponent from '@/components/commons/GalleryComponent'
 import React from 'react'
 import { ALUZINC } from '../constants'
 import type { Metadata } from 'next'
- 
+
 export const metadata: Metadata = {
-  title: 'IVOS | Aluzinc',
-  description: 'Revestimiento metálico de chapa revestida con una disposición macho-hembra que permite el acople de los paneles entre sí. Su característica estética, revela una dramática textura unidireccional, que se puede instalar en cualquier sentido.',
+  title: 'Aluzinc',
+  description: 'Revestimiento metálico de chapa aluzinc con sistema de acople macho-hembra. Textura unidireccional dramática, instalable en cualquier sentido. Ideal para fachadas y exteriores de alta durabilidad.',
+  alternates: { canonical: 'https://ivos.com.ar/materiales/aluzinc' },
+  openGraph: { url: 'https://ivos.com.ar/materiales/aluzinc' },
 }
 
 export default function AluzincPage() {

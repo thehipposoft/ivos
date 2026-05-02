@@ -2,10 +2,12 @@ import GalleryComponent from '@/components/commons/GalleryComponent'
 import React from 'react'
 import { PERFILES_WPC } from '../constants'
 import type { Metadata } from 'next'
- 
+
 export const metadata: Metadata = {
-  title: 'IVOS | Perfiles de WPC',
-  description: 'Los perfiles de WPC (Wood Plastic Composite) tienen todas las ventajas de la madera sin sus inconvenientes. Además de ser 100% resistentes al agua, la mezcla de resina de celulosa y PVC les permiten ser resistente a los rayos UV, a sustancias químicas como el cloro y a los golpes.',
+  title: 'Perfiles de WPC',
+  description: 'Perfiles de WPC (Wood Plastic Composite): todas las ventajas de la madera sin sus inconvenientes. 100% resistentes al agua, rayos UV, cloro y golpes. Ideales para deck, cerco y pergolas.',
+  alternates: { canonical: 'https://ivos.com.ar/materiales/perfiles-wpc' },
+  openGraph: { url: 'https://ivos.com.ar/materiales/perfiles-wpc' },
 }
 
 export default function PlacasPVCPage() {

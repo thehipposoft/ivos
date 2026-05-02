@@ -2,10 +2,12 @@ import GalleryComponent from '@/components/commons/GalleryComponent'
 import React from 'react'
 import { REV_INTERIOR } from '../constants'
 import type { Metadata } from 'next'
- 
+
 export const metadata: Metadata = {
-  title: 'IVOS | Revestimientos Interiores PVC',
-  description: 'Los revestimientos interiores de PVC te permiten revestir cualquier pared de forma rápida y sin obra.',
+  title: 'Revestimientos Interiores PVC',
+  description: 'Revestimientos interiores de PVC: instalación rápida sin obra, sin humedad y bajo mantenimiento. Disponibles en símil madera o colores lisos para paredes de cualquier ambiente.',
+  alternates: { canonical: 'https://ivos.com.ar/materiales/revestimientos-interiores' },
+  openGraph: { url: 'https://ivos.com.ar/materiales/revestimientos-interiores' },
 }
 
 export default function RevestimientoInterioresPage() {

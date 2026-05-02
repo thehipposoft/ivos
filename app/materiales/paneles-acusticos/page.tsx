@@ -2,10 +2,12 @@ import GalleryComponent from '@/components/commons/GalleryComponent'
 import React from 'react'
 import { PANELES_ACUSTICOS } from '../constants'
 import type { Metadata } from 'next'
- 
+
 export const metadata: Metadata = {
-  title: 'IVOS | Paneles Acústicos',
-  description: 'Los paneles acústicos se pueden utilizar en oficinas, restaurantes, salas de reuniones, bibliotecas, hoteles, residencias, entre otros.',
+  title: 'Paneles Acústicos',
+  description: 'Paneles acústicos para oficinas, restaurantes, salas de reuniones, hoteles y residencias. Mejorá la acústica de cualquier ambiente con instalación simple y diseños decorativos.',
+  alternates: { canonical: 'https://ivos.com.ar/materiales/paneles-acusticos' },
+  openGraph: { url: 'https://ivos.com.ar/materiales/paneles-acusticos' },
 }
 
 export default function PanelesAcusticosPage() {
