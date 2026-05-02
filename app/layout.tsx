@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     description: "Combinamos conocimiento técnico y visión estética para seleccionar materiales de alta calidad, proponer soluciones innovadoras y garantizar resultados eficientes.",
     images: [
       {
-        url: "/assets/images/og-image.png",
+        url: "https://ivos.com.ar/assets/images/og-image.png",
         width: 1200,
         height: 630,
         alt: "IVOS - Materiales de construcción y revestimientos",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "IVOS | Remodelá sin obra",
     description: "Combinamos conocimiento técnico y visión estética para seleccionar materiales de alta calidad, proponer soluciones innovadoras y garantizar resultados eficientes.",
-    images: ["/assets/images/og-image.png"],
+    images: ["https://ivos.com.ar/assets/images/og-image.png"],
   },
 };
 
