@@ -1,4 +1,4 @@
-import { Post } from "@/src/types";
+import { getInstagramToken } from "@/api/Index";
 import Banner from "@/components/Banner";
 import Header from "../components/Header";
 import Materiales from "@/components/Materiales";
@@ -9,24 +9,22 @@ import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
 import Tableros from "@/components/Tableros";
 import RedesSociales from "@/components/RedesSociales";
-import getFeed from "@/api/getFeed";
 
 export default async function Home() {
+    const instagramToken = await getInstagramToken();
 
-  const instagramFeed: Post[] = await getFeed();
-
-  return (
-    <div className="">
-      <Header />
-      <Banner />
-      <Novedad />
-      <Materiales />
-      <Proyectos />
-      <Tableros />
-      <Nosotros />
-      <Contact />
-      <RedesSociales feedData={instagramFeed} />
-      <Footer />
-    </div>
-  );
+    return (
+        <div className="">
+            <Header />
+            <Banner />
+            <Novedad />
+            <Materiales />
+            <Proyectos />
+            <Tableros />
+            <Nosotros />
+            <Contact />
+            <RedesSociales instagramToken={instagramToken} />
+            <Footer />
+        </div>
+    );
 }
